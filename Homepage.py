@@ -15,7 +15,7 @@ st.sidebar.success("Select a page above")
 st.title('VoyageVault')
 
 import requests
-api_key = "AIzaSyC4GEY4Ir_SZ2fp9TS03SwF_R9rpPTFm38"
+api_key = ""
 google_llm = GooglePalm(google_api_key=api_key)
 
 prompt = st.text_input('The place you are visiting')
