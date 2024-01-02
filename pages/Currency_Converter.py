@@ -15,8 +15,8 @@ class CurrencyConverter:
 def main():
     st.title("Currency Converter")
     
-    YOUR_ACCESS_KEY = '62c9665de811c2be9f63e9bf61cebfeb'
-    url = f'http://data.fixer.io/api/latest?access_key={YOUR_ACCESS_KEY}'
+    ACCESS_KEY = ''
+    url = f'http://data.fixer.io/api/latest?access_key={ACCESS_KEY}'
     converter = CurrencyConverter(url)
 
     currency_abbvs = [
