@@ -20,7 +20,7 @@ google_llm = GooglePalm(google_api_key=api_key)
 
 prompt = st.text_input('The place you are visiting')
 def weather(prompt):
-        api_key = '500891699ae16f5425e7b0d2c71bc825'
+        api_key = ''
         while True:
             result = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={prompt}&units=metric&appid={api_key}')
             if result.json()['cod'] == '404':
