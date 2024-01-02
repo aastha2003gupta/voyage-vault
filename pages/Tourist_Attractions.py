@@ -8,7 +8,7 @@ from langchain.tools import DuckDuckGoSearchRun
 import requests
 
 
-api_key = "AIzaSyC4GEY4Ir_SZ2fp9TS03SwF_R9rpPTFm38"
+api_key = ""
 llm = GooglePalm(google_api_key=api_key, temperature=0.7)
 
 st.title('Top Tourist Spots')
